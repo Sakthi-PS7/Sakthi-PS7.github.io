@@ -481,8 +481,8 @@ main {
 }
 
 .download-cv-btn {
-  background: var(--bg-gradient-yellow-1);
-  color: hsl(0, 0%, 10%);
+  background: hsl(210, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   width: 100%;
   padding: 12px;
   border-radius: 12px;
@@ -495,22 +495,19 @@ main {
   transition: var(--transition-1);
   text-decoration: none;
   cursor: pointer;
-  border: none;
+  border: 2px solid hsl(210, 100%, 50%);
 }
 
 .download-cv-btn ion-icon {
   font-size: 20px;
-  color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 100%);
 }
 
 .download-cv-btn:hover {
   transform: scale(1.05);
   box-shadow: var(--shadow-3);
-  background: linear-gradient(
-    to bottom right,
-    hsl(45, 100%, 75%) 0%,
-    hsl(36, 100%, 72%) 50%
-  );
+  background: hsl(210, 100%, 45%);
+  border-color: hsl(210, 100%, 45%);
 }
 
 .social-list {
@@ -870,8 +867,10 @@ article.active {
 
 .filter-item button:hover,
 .filter-item button.active {
-  background: var(--bg-gradient-yellow-1);
-  color: var(--smoky-black);
+  background: hsl(210, 100%, 95%);
+  color: hsl(0, 0%, 10%);
+  font-weight: var(--fw-600);
+  border-color: hsl(210, 100%, 50%);
   transform: scale(1.05);
 }
 
@@ -1168,8 +1167,10 @@ article.active {
 
 .gallery-filter-item button:hover,
 .gallery-filter-item button.active {
-  background: var(--bg-gradient-yellow-1);
-  color: var(--smoky-black);
+  background: hsl(210, 100%, 95%);
+  color: hsl(0, 0%, 10%);
+  font-weight: var(--fw-600);
+  border-color: hsl(210, 100%, 50%);
   transform: scale(1.05);
 }
 
