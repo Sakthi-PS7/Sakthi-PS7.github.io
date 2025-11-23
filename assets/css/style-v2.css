@@ -1212,7 +1212,7 @@ article.active {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  background: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0.7) 60%, transparent);
   padding: 25px;
   transform: translateY(100%);
   transition: var(--transition-1);
@@ -1227,13 +1227,14 @@ article.active {
 }
 
 .gallery-title {
-  color: var(--white-1);
+  color: hsl(0, 0%, 100%);
   font-size: var(--fs-4);
+  font-weight: var(--fw-600);
   margin-bottom: 5px;
 }
 
 .gallery-description {
-  color: var(--light-gray);
+  color: hsl(0, 0%, 85%);
   font-size: var(--fs-7);
   margin-bottom: 10px;
 }
