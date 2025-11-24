@@ -69,6 +69,7 @@
   --white-2: hsl(0, 0%, 85%);
   --light-gray: hsl(0, 0%, 70%);
   --light-gray-70: hsla(0, 0%, 70%, 0.7);
+  --border-gradient-onyx: hsl(0, 0%, 20%);
 }
 
 /* Light theme colors - Default */
@@ -125,9 +126,9 @@ html {
 }
 
 body {
-  background: hsl(0, 0%, 100%);
+  background: var(--eerie-black-1);
   background-attachment: fixed;
-  color: hsl(0, 0%, 20%);
+  color: var(--white-2);
   line-height: 1.6;
   min-height: 100vh;
 }
